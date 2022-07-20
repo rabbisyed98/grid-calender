@@ -1,0 +1,63 @@
+body{
+    margin: 20px;
+    padding: 20px; 
+}
+
+.nav-icons{
+    display: flex;
+    justify-content: space-between;
+    justify-items: center;
+    padding: 0 30px;
+}
+a{
+    text-decoration: none;
+    font-size: 1.5em;
+    color: rgb(243, 89, 29);
+}
+
+main{
+    border: 5px solid black;
+    text-align: center;
+}
+
+.title{
+    font-size: 2em;
+    color: rgb(243, 89, 29);
+    background: rgba(224, 194, 194, 0.644);
+    padding: 20px;
+    margin: 0;
+}
+.month{
+    font-size: 1.5em;
+    background-color: gainsboro;
+    padding: 20px;
+    margin: 0;
+}
+
+.calendar{
+    display: grid;
+    grid-template-columns: repeat(7, 1fr);
+    margin: 20px;
+}
+
+.days , .date{
+    display: flex;
+    border: 1px solid gray;
+    height: 75px;
+    font-size: 1.5em ;
+    align-items: center;
+    justify-content: center;
+}
+.days{
+    background-color: lightcoral;
+    color: white;
+}
+
+.date{
+    background-color: antiquewhite;
+    color: crimson;
+}
+
+.pre{
+    color: lightgray;
+}
