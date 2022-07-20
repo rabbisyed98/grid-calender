@@ -1,7 +1,10 @@
+/* common css */
 body{
     margin: 20px;
     padding: 20px; 
 }
+
+/* navigation area css */
 
 .nav-icons{
     display: flex;
@@ -9,11 +12,13 @@ body{
     justify-items: center;
     padding: 0 30px;
 }
-a{
+.nav-icons a{
     text-decoration: none;
     font-size: 1.5em;
     color: rgb(243, 89, 29);
 }
+
+/* main area css */
 
 main{
     border: 5px solid black;
@@ -33,6 +38,8 @@ main{
     padding: 20px;
     margin: 0;
 }
+
+/* calendar area css */
 
 .calendar{
     display: grid;
@@ -60,4 +67,16 @@ main{
 
 .pre{
     color: lightgray;
+}
+
+footer{
+    height: 40px;
+    font-size: 1.5em;
+    padding: 20px;
+}
+
+footer a{
+    text-decoration: none;
+    font-size: 1em;
+    color: crimson;
 }
